@@ -1,0 +1,18 @@
+.porto{
+    &-git{
+       margin-right: 20px;
+    }
+    &-label{
+        font-style: italic;
+        margin-bottom: 10px;
+        text-align: center;        
+    }
+    &-title{
+        margin:  0 20px 19px 0;
+        text-align: left;
+    }
+    &-txt{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

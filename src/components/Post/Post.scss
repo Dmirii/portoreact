@@ -1,0 +1,98 @@
+.post{
+    ul{
+        font-size: 15px;
+        li{
+            margin-bottom: 5px;
+        }
+    }
+
+    background: #fff;
+    border: 1px solid #E8E8E8;
+    margin-bottom: 30px;
+    
+    &-body{
+        padding: 35px 35px 0px 35px; 
+    }
+    &-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-img{
+        width: 180px;
+        border-radius: 5%;
+        border: 1px solid #8C8C8C;
+    }
+    &-title{
+        font-family: "SFProDisplay-Semibold", sans-serif;
+        margin-bottom: 19px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #262626;
+    } 
+    &-text{       
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #262626;
+    }
+
+    &-footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 13px 35px 13px 35px;
+        background: #FAFAFA;
+        border-top: 1px solid #E8E8E8;
+        .icon{           
+            fill: #8C8C8C;
+            &-like{
+                height:20px;
+                width: 20px;
+                margin-right: 6px;
+            }
+            &-save{
+                height:20px;
+                width: 20px;
+            }
+            &-share{
+                height:18px;
+                width: 20px;
+            }
+            &-comment{
+                height:22px;
+                width: 22px;
+                margin-right: 6px;
+            }
+        }
+    }
+    &-buttons{
+        display: flex;
+        align-items: center;    
+    }
+    &-button{
+        cursor: pointer;
+        background-color: transparent;
+        border:none;
+        color: #8C8C8C;
+        display: flex;
+        align-items: center;
+        font-style: 14px;
+        line-height: 22px;
+        margin-right: 12px;
+        &:last-child{
+            margin: 0px;    
+        }
+    }
+    &-author{
+        display: flex;
+        align-items: center;
+        text-align: right;
+    }
+    &-time{
+        color: #BFBFBF;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}

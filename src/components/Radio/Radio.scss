@@ -1,0 +1,18 @@
+.radio-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+.radio-manage{
+    margin-right: 30px;
+    font-size: 24px;
+}
+.radio-btn{
+    width: 50px;
+    &:hover{
+        box-shadow: 0 0 10px #D48806;;
+        border-radius: 20%;
+    }
+}

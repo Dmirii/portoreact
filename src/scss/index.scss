@@ -1,0 +1,14 @@
+
+@import "./_reset_fp.scss";
+@import "./_fonts.scss";
+@import "./_media.scss";
+@import "./_addPost.scss";
+
+* {
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: "SFProDisplay-Regular", sans-serif;
+    background: #E5E5E5;    
+}
