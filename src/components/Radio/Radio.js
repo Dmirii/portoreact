@@ -42,7 +42,7 @@ class Radio extends React.Component {
                 
                      <div className="radio-manage">  
                       <a className="radio-play" href="/" onClick={this.radioPlay}>
-                     <img className="radio-btn" alt="play" src={audio.paused ? `portoreact/img/play.png`: `portoreact/img/stop.png` }></img>
+                     <img className="radio-btn" alt="play" src={audio.paused ? `/portoreact/img/play.png`: `/portoreact/img/stop.png` }></img>
                      </a></div>
                         
                         

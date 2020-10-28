@@ -49,24 +49,24 @@ const Post = ({postContent  }) =>{
     <div className="post-buttons">
         <button className="likes post-button">
         <svg className="icon icon-like">
-        <use xlinkHref="/img/icons.svg#like"> </use>
+        <use xlinkHref="/portoreact/img/icons.svg#like"> </use>
         </svg>
             <span className="likes-counter">{postContent[4][0]}</span>
         </button>
         <button className="comments post-button">
             <svg className="icon icon-comment">
-            <use xlinkHref="/img/icons.svg#comment"> </use>
+            <use xlinkHref="/portoreact/img/icons.svg#comment"> </use>
             </svg>
             <span className="comments-counter">{postContent[4][1]}</span>
         </button>
         <button className="save post-button">
         <svg className="icon icon-save">
-        <use xlinkHref="/img/icons.svg#save"> </use>
+        <use xlinkHref="/portoreact/img/icons.svg#save"> </use>
         </svg>
         </button>
         <button  className="share post-button">
         <svg className="icon icon-share">
-        <use xlinkHref="/img/icons.svg#share"> </use>
+        <use xlinkHref="/portoreact/img/icons.svg#share"> </use>
         </svg>
         </button>
     </div>
@@ -79,7 +79,7 @@ const Post = ({postContent  }) =>{
             <span className="post-time">{postContent[5]}</span>
         </div>
         <a href="/" className="author">
-            <img src="portoreact/img/DimaA.jpg" alt="tpdne" className="author-avatar"/>
+            <img src="/portoreact/img/DimaA.jpg" alt="tpdne" className="author-avatar"/>
         </a>
     </div>
 </div>

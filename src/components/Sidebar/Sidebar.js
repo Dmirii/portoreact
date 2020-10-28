@@ -15,7 +15,7 @@ const Sidebar = ({mainDB}) => {
             <SidebarNav menuList={mainDB.menuList}   />
             <a target="_blanck" href="./newPost.html" className="button button-new-post">
                 <svg className="icon icon-fire">
-                <use xlinkHref="portoreact/img/icons.svg#Fier"> </use>
+                <use xlinkHref="/portoreact/img/icons.svg#Fier"> </use>
                 </svg>
                     Обратная связь    </a>
             <Money/>

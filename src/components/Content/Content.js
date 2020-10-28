@@ -24,7 +24,8 @@ const Content = ({mainDB ,skils = mainDB.mySkils, porto=mainDB.porto }) => {
             setStartElement(newStartElement);
             setPage(pageNumber);
         }
-        else{  
+        else{
+            
 
         }
     }
