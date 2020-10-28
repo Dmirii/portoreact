@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portoreact/static/css/main.778f99e9.chunk.css",
-    "main.js": "/portoreact/static/js/main.93ad42b8.chunk.js",
-    "main.js.map": "/portoreact/static/js/main.93ad42b8.chunk.js.map",
+    "main.js": "/portoreact/static/js/main.5fcc123c.chunk.js",
+    "main.js.map": "/portoreact/static/js/main.5fcc123c.chunk.js.map",
     "runtime-main.js": "/portoreact/static/js/runtime-main.267cd949.js",
     "runtime-main.js.map": "/portoreact/static/js/runtime-main.267cd949.js.map",
     "static/js/2.f4903f70.chunk.js": "/portoreact/static/js/2.f4903f70.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.267cd949.js",
     "static/js/2.f4903f70.chunk.js",
     "static/css/main.778f99e9.chunk.css",
-    "static/js/main.93ad42b8.chunk.js"
+    "static/js/main.5fcc123c.chunk.js"
   ]
 }
