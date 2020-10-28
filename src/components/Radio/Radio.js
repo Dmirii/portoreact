@@ -38,11 +38,11 @@ class Radio extends React.Component {
                 </div>
                 <div className="radio-body card-body">
 
-                    <div className="radio-link"> <a href="https://radiopotok.ru/radiostations" className="card-body-title radio-title">Спокойное радио</a></div>
+                    <div className="radio-link"> <a rel="noreferrer" target="_blank" href="https://radiopotok.ru/radiostations" className="card-body-title radio-title">Спокойное радио</a></div>
                 
                      <div className="radio-manage">  
                       <a className="radio-play" href="/" onClick={this.radioPlay}>
-                     <img className="radio-btn" alt="play" src={audio.paused ? `/img/play.png`: `/img/stop.png` }></img>
+                     <img className="radio-btn" alt="play" src={audio.paused ? `portoreact/img/play.png`: `portoreact/img/stop.png` }></img>
                      </a></div>
                         
                         

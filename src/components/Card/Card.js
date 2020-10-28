@@ -23,7 +23,7 @@ class Card extends React.Component {
                     <h2 className="card-title">Случайны анекдот:</h2>
                 </div>
                 <div className="card-body">
-                    <a href="https://icanhazdadjoke.com/api" className="card-body-title">https://icanhazdadjoke.com/api</a>
+                    <a rel="noreferrer" target="_blank" href="https://icanhazdadjoke.com/api" className="card-body-title">https://icanhazdadjoke.com/api</a>
                         <p className="card-text card-joke">
                             {this.state.joke}
                         </p>

@@ -75,11 +75,11 @@ const Post = ({postContent  }) =>{
 
     <div className="post-author">
         <div className="author-about">
-            <a href="https://dmirii.github.io/myPort/" className="author-username">dimaaru</a>
+            <a href="https://dimaa.ru" rel="noreferrer" target="_blank" className="author-username">dimaaru</a>
             <span className="post-time">{postContent[5]}</span>
         </div>
         <a href="/" className="author">
-            <img src="/img/DimaA.jpg" alt="tpdne" className="author-avatar"/>
+            <img src="portoreact/img/DimaA.jpg" alt="tpdne" className="author-avatar"/>
         </a>
     </div>
 </div>

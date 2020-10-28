@@ -32,7 +32,7 @@ class Money extends React.Component {
 
                 </div>
                 <div className="card-body">
-                    <a href="https://exchangeratesapi.io/" className="card-body-title">https://exchangeratesapi.io/</a>
+                    <a rel="noreferrer" target="_blank" href="https://exchangeratesapi.io/" className="card-body-title">https://exchangeratesapi.io/</a>
                     
                         <p className="card-text card-joke">
                             {`1 USD = ${this.state.USD} RUB`}

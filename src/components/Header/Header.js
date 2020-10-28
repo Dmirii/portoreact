@@ -21,7 +21,7 @@ const Header = (props) => (
             <div className="input-group search">
                 <input type="search" className="search-input" placeholder="Поиск по сайту"/>
                 <button className="search-button">  
-                    <img src="/img/search.svg" alt="icon:search"/>
+                    <img src="portoreact/img/search.svg" alt="icon:search"/>
                 </button>
             </div>           
             <a href="/" data-menu-toggle className="menu-toggle">

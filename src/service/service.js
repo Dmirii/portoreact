@@ -15,7 +15,7 @@ export const PROMO = (
     
                     </p>
                 </div>
-                <img src="/img/DimaA.jpg" alt="Дима А" className="post-img"/>
+                <img src="portoreact/img/DimaA.jpg" alt="Дима А" className="post-img"/>
             </div>    
             <div className="tags">
             <a href="/" className="tag">#dimaA</a>
@@ -28,24 +28,24 @@ export const PROMO = (
         <div className="post-buttons">
             <button className="likes post-button">
             <svg className="icon icon-like">
-            <use xlinkHref="/img/icons.svg#like"> </use>
+            <use xlinkHref="portoreact/img/icons.svg#like"> </use>
             </svg>
                 <span className="likes-counter">26</span>
             </button>
             <button className="comments post-button">
                 <svg className="icon icon-comment">
-                <use xlinkHref="/img/icons.svg#comment"> </use>
+                <use xlinkHref="portoreact/img/icons.svg#comment"> </use>
                 </svg>
                 <span className="comments-counter">157</span>
             </button>
             <button className="save post-button">
             <svg className="icon icon-save">
-            <use xlinkHref="/img/icons.svg#save"> </use>
+            <use xlinkHref="portoreact/img/icons.svg#save"> </use>
             </svg>
             </button>
             <button className="share post-button">
             <svg className="icon icon-share">
-            <use xlinkHref="/img/icons.svg#share"> </use>
+            <use xlinkHref="portoreact/img/icons.svg#share"> </use>
             </svg>
             </button>
         </div>
@@ -55,7 +55,7 @@ export const PROMO = (
                 <span className="post-time">08.04.2020</span>
             </div>
             <a href="/" className="author">
-                <img src="/img/DimaA.jpg" alt="tpdne" className="author-avatar"/>
+                <img src="portoreact/img/DimaA.jpg" alt="tpdne" className="author-avatar"/>
             </a>
         </div>    
     </div>
@@ -87,7 +87,7 @@ export const CONTACT = (
     
                  
                 </div>
-                <img src="/img/DimaA.jpg" alt="Дима А" className="post-img"/>
+                <img src="portoreact/img/DimaA.jpg" alt="Дима А" className="post-img"/>
             </div>    
             <div className="tags">
             <a href="/" className="tag">#dimaA</a>
@@ -100,24 +100,24 @@ export const CONTACT = (
         <div className="post-buttons">
             <button className="likes post-button">
             <svg className="icon icon-like">
-            <use xlinkHref="/img/icons.svg#like"> </use>
+            <use xlinkHref="portoreact/img/icons.svg#like"> </use>
             </svg>
                 <span className="likes-counter">26</span>
             </button>
             <button className="comments post-button">
                 <svg className="icon icon-comment">
-                <use xlinkHref="/img/icons.svg#comment"> </use>
+                <use xlinkHref="portoreact/img/icons.svg#comment"> </use>
                 </svg>
                 <span className="comments-counter">157</span>
             </button>
             <button className="save post-button">
             <svg className="icon icon-save">
-            <use xlinkHref="/img/icons.svg#save"> </use>
+            <use xlinkHref="portoreact/img/icons.svg#save"> </use>
             </svg>
             </button>
             <button className="share post-button">
             <svg className="icon icon-share">
-            <use xlinkHref="/img/icons.svg#share"> </use>
+            <use xlinkHref="portoreact/img/icons.svg#share"> </use>
             </svg>
             </button>
         </div>
@@ -127,7 +127,7 @@ export const CONTACT = (
                 <span className="post-time">08.04.2020</span>
             </div>
             <a href="/" className="author">
-                <img src="/img/DimaA.jpg" alt="tpdne" className="author-avatar"/>
+                <img src="portoreact/img/DimaA.jpg" alt="tpdne" className="author-avatar"/>
             </a>
         </div>    
     </div>
@@ -140,13 +140,24 @@ export const mainDB = {
     about:PROMO,
     porto:[
         [
+            '0',
+            'zero element',
+            'zero element',
+            'zero element',
+            `zero element`,
+            ['zero','zero',],
+            'zero.png',
+            ['49','52',],
+            '10.10.2020',
+        ],
+        [
             '25',
             'SPACEX',
             'https://github.com/Dmirii/spacex',
             'https://dmirii.github.io/spacex/',
             `Workshop Glo.React Route Link Fetch SpaceX JavaScript`,
             ['JS','React',],
-            '/img/img/space.png',
+            'portoreact/img/img/space.png',
             ['49','52',],
             '10.10.2020',
         ],
@@ -159,7 +170,7 @@ export const mainDB = {
             js, Javascript, Fetch , API , UNSPLAH , NODE.JS , openweathermap.org , telegram , icanhazdadjoke, currency exchange ,exchangeratesapi
             `,
             ['JS','telegram','Fetch','API','UNSPLAH','NODE.JS','openweathermap.org','icanhazdadjoke',],
-            '/img/img/bot.png',
+            'portoreact/img/img/bot.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -170,7 +181,7 @@ export const mainDB = {
             'https://dmirii.github.io/flmarafon/',
             'Марафон по верстке. От фрилансера по жизни Евгения Андриканича. Иcпользован его динамический адаптив.',
             ['JS','HTML','SCSS',],
-            '/img/img/fl.png',
+            'portoreact/img/img/fl.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -181,7 +192,7 @@ export const mainDB = {
             'https://dmirii.github.io/hunter/',
             'JS. Canvas',
             ['JS','Canvas',],
-            '/img/img/hunter.png',
+            'portoreact/img/img/hunter.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -192,7 +203,7 @@ export const mainDB = {
             'https://dmirii.github.io/ikea/',
             'Workshop Glo.Чистый JS',
             ['JS','Glo',],
-            '/img/img/ikea.png',
+            'portoreact/img/img/ikea.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -203,7 +214,7 @@ export const mainDB = {
             'https://dmirii.github.io/Flappy/',
             'Чистый JS',
             ['JS','canvas',],
-            '/img/img/flappy.png',
+            'portoreact/img/img/flappy.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -214,7 +225,7 @@ export const mainDB = {
             'https://github.com/Dmirii/nfjs',
             'Чистый JS',
             ['JS','Glo',],
-            '/img/img/nfjs.png',
+            'portoreact/img/img/nfjs.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -226,7 +237,7 @@ export const mainDB = {
             `MERN,Mongo, Express, React, Node, JS;
             Изучение стека MERN Курс от Владилена Минина`,
             ['React','JS', 'MERN', 'JS',],
-            '/img/img/surl.png',
+            'portoreact/img/img/surl.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -237,7 +248,7 @@ export const mainDB = {
             'https://dmirii.github.io/reactTodo/',
             `JS, JSX React Loader, Modal , Fetch;`,
             ['React','JS', 'Glo', 'JSX',],
-            '/img/img/reacttodo.png',
+            'portoreact/img/img/reacttodo.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -249,7 +260,7 @@ export const mainDB = {
             `WorkShop Glo;
             React, JS , Создание динамических компонентов, Работа с localstorage,`,
             ['React','JS', 'Glo', ],
-            '/img/img/monycalcreact.png',
+            'portoreact/img/img/monycalcreact.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -260,7 +271,7 @@ export const mainDB = {
             'https://dmirii.github.io/yatuns/',
             `Workshop от Glo`,
             ['SCSS','JS', 'Glo', ],
-            '/img/img/yatuns.png',
+            'portoreact/img/img/yatuns.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -271,7 +282,7 @@ export const mainDB = {
             'https://dmirii.github.io/DIM/',
             `Создание UI только на чистом JS . На данный момент создано модальное окно. Использую ютуб канал Владилена Минина.`,
             ['SCSS','JS', 'Webpack', ],
-            '/img/img/js.png',
+            'portoreact/img/img/js.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -282,7 +293,7 @@ export const mainDB = {
             'https://vnode-app.firebaseapp.com/',
             `JS. Динамический HTML, Webpack , Firebase`,
             ['MUI','SCSS','JS', 'Webpack', 'SPA', ],
-            '/img/img/vnode.png',
+            'portoreact/img/img/vnode.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -293,7 +304,7 @@ export const mainDB = {
             'https://dmirii.github.io/Framework/',
             `My second JS SPA (85 days of self-education.) framework / Фреймворк pure js / чистый js learning curse / обучающий курс`,
             ['FRAMWORK','JS', 'SPA', ],
-            '/img/img/excel.png',
+            'portoreact/img/img/excel.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -304,7 +315,7 @@ export const mainDB = {
             'https://dmirii.github.io/Awito/',
             `Workshop Glo JS`,
             ['HTML','SCSS','JS', 'Glo', ],
-            '/img/img/awito.png',
+            'portoreact/img/img/awito.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -317,7 +328,7 @@ export const mainDB = {
             1.Табы 2.Таймер 3.Модальное окно 4.Отправка POST 5.Слайдер  
             WEBPACK !`,
             ['HTML','SCSS','JS', 'Webpack',],
-            '/img/img/yoga.png',
+            'portoreact/img/img/yoga.png',
             ['49','52',],
             '29.05.2020',
         ],
@@ -328,7 +339,7 @@ export const mainDB = {
             'https://dmirii.github.io/ghost/',
             'Интенсив от Glo . Изучаю HTML + CSS + JS',
             ['HTML','SCSS','JS', 'Glo',],
-            '/img/img/gb.png',
+            'portoreact/img/img/gb.png',
             ['49','52',],
             '21.05.2020',
         ],
@@ -339,7 +350,7 @@ export const mainDB = {
             'https://dmirii.github.io/monyekeeper/',
             'Моё первое SPA. JS+ адаптив Flex @media',
             ['PUG','SASS','JS', 'SPA', '@media'],
-            '/img/img/money.png',
+            'portoreact/img/img/money.png',
             ['49','52',],
             '21.05.2020',
         ],
@@ -350,7 +361,7 @@ export const mainDB = {
             'https://dmirii.github.io/myPort/',
             'PUG, SASS  , JS , Адаптив Flex + media',
             ['PUG','SASS','JS', ],
-            '/img/img/porto.png',
+            'portoreact/img/img/porto.png',
             ['49','52',],
             '14.05.2020',
         ],
@@ -361,7 +372,7 @@ export const mainDB = {
             'https://dmirii.github.io/netclicks/',
             'HTML, CSS , JS ',
             ['HTML','JS','CSS', ],
-            '/img/img/net.png',
+            'portoreact/img/img/net.png',
             ['49','52',],
             '12.05.2020',
         ],
@@ -372,7 +383,7 @@ export const mainDB = {
             'https://dmirii.github.io/puls_p/',
             'HTML(Bootstrap Grid) , SASS , JS , БЭМ . Плагины jquery. Прикрутил php mailer. ( не работает с гита т.к. он не поддерживает php)',
             ['Bootstrap Grid','JS','SaSS', 'БЭМ',],
-            '/img/img/puls.png',
+            'portoreact/img/img/puls.png',
             ['49','52',],
             '1.05.2020',
         ],
@@ -383,7 +394,7 @@ export const mainDB = {
             'https://dmirii.github.io/uber/',
             'Простой HTML и SaSS. 41 день самостоятельного обучения. Настроил VSC. Использую SASS в синтаксисе scss. Настроил Gulp. Изучил БЭМ.',
             ['HTML','Bootstrap','SaSS',],
-            '/img/img/uber.png',
+            'portoreact/img/img/uber.png',
             ['49','52',],
             '25.04.2020',
         ],
@@ -394,7 +405,7 @@ export const mainDB = {
             'https://dmirii.github.io/Scss/',
             'Простой HTML и SCSS.  Начал использовать SASS. Установил Live SASS для VSC. РАзобрался с настройками. ',
             ['HTML','CSS','SCSS',],
-            '/img/img/wpi.png',
+            'portoreact/img/img/wpi.png',
             ['49','52',],
             '21.04.2020',
         ],
@@ -405,7 +416,7 @@ export const mainDB = {
             'https://dmirii.github.io/Mountain/',
             'Простой HTML и SCSS. Первый опыт с JS. Добавил Slider. Интенсив по верстке от HTML академии. ',
             ['HTML','CSS','SCSS','sliderSlick'],
-            '/img/img/mount.png',
+            'portoreact/img/img/mount.png',
             ['49','52',],
             '10.04.2020',
         ],
@@ -416,50 +427,50 @@ export const mainDB = {
             'https://dmirii.github.io/Culture_News/',
             'Простой HTML и CSS. Моя первая работа. Прохожу курсы HTML академии.',
             ['HTML','CSS'],
-            '/img/img/cnp.png',
+            'portoreact/img/img/cnp.png',
             ['49','52',],
             '1.04.2020',
         ],
        
     ],
     mySkils:[
-        ['/img/skils/skils.jpg','Мои основные навыки',
+        ['portoreact/img/skils/skils.jpg','Мои основные навыки',
             ['HTML','CSS','JS','Git','Figma','Avacode','Создаю чатботов для Telegram',],
             ['dimaaru','JS','REACT','MERN',],
             ['19','125',],
             '08.04.2020',
         ],
-        ['/img/skils/preproc.png','Препроцессоры',
+        ['portoreact/img/skils/preproc.png','Препроцессоры',
             ['PUG','CSS предпочитаю SASS в синтаксисе scss',],
             ['dimaaru','PUG','SCSC','SASS'],
             ['49','52',],
             '10.04.2020',
         ],
-        ['/img/skils/layout.jpg','Верстка',
+        ['portoreact/img/skils/layout.jpg','Верстка',
             ['Использовал Bootstrap grid','Изучал Float','Предпочитаю адаптивно-отзывчивую верстку (Flex + @media)','Не люблю статику. Люблю генерить верстку JSом.',],
             ['dimaaru','Flex','CSS','@media',],
             ['39','125',],
             '12.04.2020',
         ],
-        ['/img/skils/npm.jpg','Общие задачи',
+        ['portoreact/img/skils/npm.jpg','Общие задачи',
             ['Gulp','Yarn','npm','PerfectPixel','Webpack',],
             ['dimaaru','Gulp','Yarn','npm','Webpack',],
             ['39','15',],
             '12.04.2020',
         ],
-        ['/img/skils/react.png','Библиотеки JS',
+        ['portoreact/img/skils/react.png','Библиотеки JS',
             ['Node.JS','React.JS',],
             ['dimaaru','React','Node'],
             ['3','20',],
             '16.04.2020',
         ],
-        ['/img/skils/bd.jpg','БД',
+        ['portoreact/img/skils/bd.jpg','БД',
             ['Mongo DB','Firebase',],
             ['dimaaru','Mongo','Fierbase',],
             ['2','15',],
             '19.04.2020',
         ],
-        ['/img/skils/mern.png','Стеки',
+        ['portoreact/img/skils/mern.png','Стеки',
             ['MERN',],
             ['dimaaru','MERN','Mongo','Express','React','Node',],
             ['12','10',],

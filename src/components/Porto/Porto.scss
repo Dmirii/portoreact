@@ -16,3 +16,18 @@
         line-height: 20px;
     }
 }
+
+.pagination{
+    li{
+        margin-right: 10px;
+    }
+    a{
+        color: #FA8C16;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}

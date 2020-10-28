@@ -29,7 +29,7 @@ const Porto = ({postContent  }) =>{
         </div>
         <div className="tags">
         <a  className="porto-git"  rel="noreferrer" target="_blank" href={postContent[2]}>
-                        <img  alt="GitHub Repo" src="/img/GitHub.png"/>
+                        <img  alt="GitHub Repo" src="portoreact/img/GitHub.png"/>
                     </a> 
                   
         { 
@@ -53,24 +53,24 @@ const Porto = ({postContent  }) =>{
     <div className="post-buttons">
         <button className="likes post-button">
         <svg className="icon icon-like">
-        <use xlinkHref="/img/icons.svg#like"> </use>
+        <use xlinkHref="portoreact/img/icons.svg#like"> </use>
         </svg>
             <span className="likes-counter">{postContent[7][0]}</span>
         </button>
         <button className="comments post-button">
             <svg className="icon icon-comment">
-            <use xlinkHref="/img/icons.svg#comment"> </use>
+            <use xlinkHref="portoreact/img/icons.svg#comment"> </use>
             </svg>
             <span className="comments-counter">{postContent[7][1]}</span>
         </button>
         <button className="save post-button">
         <svg className="icon icon-save">
-        <use xlinkHref="/img/icons.svg#save"> </use>
+        <use xlinkHref="portoreact/img/icons.svg#save"> </use>
         </svg>
         </button>
         <button  className="share post-button">
         <svg className="icon icon-share">
-        <use xlinkHref="/img/icons.svg#share"> </use>
+        <use xlinkHref="portoreact/img/icons.svg#share"> </use>
         </svg>
         </button>
     </div>
@@ -79,11 +79,11 @@ const Porto = ({postContent  }) =>{
 
     <div className="post-author">
         <div className="author-about">
-            <a href="https://dmirii.github.io/myPort/" className="author-username">dimaaru</a>
+            <a target="_blank" rel="noreferrer" href="https://dimaa.ru" className="author-username">dimaaru</a>
             <span className="post-time">{postContent[8]}</span>
         </div>
         <a href="/" className="author">
-            <img src="/img/DimaA.jpg" alt="tpdne" className="author-avatar"/>
+            <img src="portoreact/img/DimaA.jpg" alt="tpdne" className="author-avatar"/>
         </a>
     </div>
 </div>
