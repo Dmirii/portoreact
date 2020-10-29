@@ -151,6 +151,17 @@ export const mainDB = {
             '10.10.2020',
         ],
         [
+            '26',
+            'Delivery',
+            'https://github.com/Dmirii/delivery',
+            'https://dmirii.github.io/delivery/',
+            `Workshop Glo.JS Fetch localStorage`,
+            ['JS','Fetch',],
+            '/portoreact/img/img/del.png',
+            ['49','52',],
+            '10.10.2020',
+        ],
+        [
             '25',
             'SPACEX',
             'https://github.com/Dmirii/spacex',

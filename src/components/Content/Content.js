@@ -28,6 +28,7 @@ const Content = ({mainDB ,skils = mainDB.mySkils, porto=mainDB.porto }) => {
             
 
         }
+        console.log(newStartElement)
     }
 
     return(
@@ -57,7 +58,7 @@ const Content = ({mainDB ,skils = mainDB.mySkils, porto=mainDB.porto }) => {
                     {   
                         
                         porto.map((item,index) => {
-                            if( index> startElement && index <(startElement+elements)){
+                            if( index> startElement && index <=(startElement+elements)){
                             return(
                                 <Porto key={index} postContent ={item}/>)
                             }else return(null)
