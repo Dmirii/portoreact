@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portoreact/static/css/main.395f3b1e.chunk.css",
-    "main.js": "/portoreact/static/js/main.98394d93.chunk.js",
-    "main.js.map": "/portoreact/static/js/main.98394d93.chunk.js.map",
+    "main.css": "/portoreact/static/css/main.c6d938f3.chunk.css",
+    "main.js": "/portoreact/static/js/main.e06a5d5c.chunk.js",
+    "main.js.map": "/portoreact/static/js/main.e06a5d5c.chunk.js.map",
     "runtime-main.js": "/portoreact/static/js/runtime-main.267cd949.js",
     "runtime-main.js.map": "/portoreact/static/js/runtime-main.267cd949.js.map",
-    "static/js/2.04d72337.chunk.js": "/portoreact/static/js/2.04d72337.chunk.js",
-    "static/js/2.04d72337.chunk.js.map": "/portoreact/static/js/2.04d72337.chunk.js.map",
+    "static/js/2.9ff71331.chunk.js": "/portoreact/static/js/2.9ff71331.chunk.js",
+    "static/js/2.9ff71331.chunk.js.map": "/portoreact/static/js/2.9ff71331.chunk.js.map",
     "index.html": "/portoreact/index.html",
-    "static/css/main.395f3b1e.chunk.css.map": "/portoreact/static/css/main.395f3b1e.chunk.css.map",
-    "static/js/2.04d72337.chunk.js.LICENSE.txt": "/portoreact/static/js/2.04d72337.chunk.js.LICENSE.txt",
+    "static/css/main.c6d938f3.chunk.css.map": "/portoreact/static/css/main.c6d938f3.chunk.css.map",
+    "static/js/2.9ff71331.chunk.js.LICENSE.txt": "/portoreact/static/js/2.9ff71331.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/portoreact/static/media/SFProDisplay-Semibold.3926eb65.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.267cd949.js",
-    "static/js/2.04d72337.chunk.js",
-    "static/css/main.395f3b1e.chunk.css",
-    "static/js/main.98394d93.chunk.js"
+    "static/js/2.9ff71331.chunk.js",
+    "static/css/main.c6d938f3.chunk.css",
+    "static/js/main.e06a5d5c.chunk.js"
   ]
 }
