@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './Sidebar.scss';
 
 import User from '../User/User.js';
@@ -11,15 +12,18 @@ const Sidebar = ({mainDB}) => {
 
     return(
         <aside className="sidebar">
+       
             <User/>
             <SidebarNav menuList={mainDB.menuList}   />
-            <a target="_blanck" href="./newPost.html" className="button button-new-post">
+            
+            <Link to="/feedback" className="button button-new-post">
                 <svg className="icon icon-fire">
                 <use xlinkHref="/portoreact/img/icons.svg#Fier"> </use>
                 </svg>
-                    Обратная связь    </a>
-            <Money/>
+                Обратная связь    </Link>
             <Radio/>
+            <Money/>
+           
             <Card/>
             <div className="promo">
             </div>

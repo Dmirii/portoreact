@@ -1,0 +1,46 @@
+.card {
+  margin-top: 20px;
+}
+
+.card-header {
+  background: #FAFAFA;
+  border: 1px solid #E8E8E8;
+}
+
+.card-title {
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  padding: 23px 0px 23px 25px;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.card-body {
+  border: 1px solid #E8E8E8;
+  background: #fff;
+}
+
+.card-body-title {
+  width: 95%;
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  display: block;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #D48806;
+  padding: 22px 0px 10px 25px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  padding: 0 40px 30px 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #262626;
+}
+/*# sourceMappingURL=Card.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../src/components/SidebarNav/SidebarNav.scss"
+    ],
+    "names": [],
+    "file": "SidebarNav.min.css"
+}

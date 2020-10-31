@@ -1,0 +1,134 @@
+.post {
+  background: #fff;
+  border: 1px solid #E8E8E8;
+  margin-bottom: 30px;
+}
+
+.post ul {
+  font-size: 15px;
+}
+
+.post ul li {
+  margin-bottom: 5px;
+}
+
+.post-body {
+  padding: 35px 35px 0px 35px;
+}
+
+.post-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.post-img {
+  width: 180px;
+  border-radius: 5%;
+  border: 1px solid #8C8C8C;
+}
+
+.post-title {
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  margin-bottom: 19px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.post-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #262626;
+}
+
+.post-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 13px 35px 13px 35px;
+  background: #FAFAFA;
+  border-top: 1px solid #E8E8E8;
+}
+
+.post-footer .icon {
+  fill: #8C8C8C;
+}
+
+.post-footer .icon-like {
+  height: 20px;
+  width: 20px;
+  margin-right: 6px;
+}
+
+.post-footer .icon-save {
+  height: 20px;
+  width: 20px;
+}
+
+.post-footer .icon-share {
+  height: 18px;
+  width: 20px;
+}
+
+.post-footer .icon-comment {
+  height: 22px;
+  width: 22px;
+  margin-right: 6px;
+}
+
+.post-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #8C8C8C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: 14px;
+  line-height: 22px;
+  margin-right: 12px;
+}
+
+.post-button:last-child {
+  margin: 0px;
+}
+
+.post-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
+}
+
+.post-time {
+  color: #BFBFBF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+}
+/*# sourceMappingURL=Post.css.map */

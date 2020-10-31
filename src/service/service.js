@@ -156,7 +156,7 @@ export const mainDB = {
             'https://github.com/Dmirii/delivery',
             'https://dmirii.github.io/delivery/',
             `Workshop Glo.JS Fetch localStorage`,
-            ['JS','Fetch',],
+            ['JS','Fetch', 'Swiper'],
             '/portoreact/img/img/del.png',
             ['49','52',],
             '10.10.2020',

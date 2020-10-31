@@ -1,6 +1,7 @@
 import React from 'react';
 import './Card.scss';
 
+
 import {getResourse} from '../../service/function.js';
 
 
@@ -9,8 +10,10 @@ class Card extends React.Component {
         joke:'',
     }
 
+
+      
     componentDidMount(){
-        
+    
         getResourse('https://icanhazdadjoke.com/',{ method: 'GET', headers: {'Accept': 'application/json' }})
         .then( data  => {           
             this.setState({joke:data.joke})
@@ -18,6 +21,7 @@ class Card extends React.Component {
     }
     render(){
     return(
+        
             <div className="card">
                 <div className="card-header">
                     <h2 className="card-title">Случайны анекдот:</h2>
@@ -28,7 +32,10 @@ class Card extends React.Component {
                             {this.state.joke}
                         </p>
                 </div>
+                <script src="https://yastatic.net/share2/share.js"></script>
+
             </div> 
+           
     )}
 }
 
