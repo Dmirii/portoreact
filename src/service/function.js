@@ -4,6 +4,6 @@ export const getResourse =  async(url,options={}) => {
     if(!res.ok){
         throw new Error (` Произошла ошибка ${res.status}`)
     }
-
     return await res.json();
 };
+

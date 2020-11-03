@@ -1,4 +1,4 @@
-import {React, useState} from 'react';
+import {React, useState ,useEffect} from 'react';
 import {BrowserRouter , Route} from 'react-router-dom';
 import Pagination from "react-js-pagination";
 
@@ -11,28 +11,33 @@ import Contact from '../Contact/Contact.js';
 import Feedback from '../Feedback/Feedback.js';
 import Sidebar from '../Sidebar/Sidebar.js';
 import PromoPost from '../PromoPost/PromoPost.js'; 
+import {getResourse} from '../../service/function'
 
 
-const Content = ({mainDB ,skils = mainDB.mySkils, porto=mainDB.porto }) => {
+
+
+const Content = ({mainDB , porto=mainDB.porto }) => {
+
     const [page , setPage] = useState(1);
     // eslint-disable-next-line
     const [elements, setElements] = useState(5);
-    const [startElement, setStartElement] = useState(0)
+    const [startElement, setStartElement] = useState(0);
+        const [mySkils, setSkils]= useState([]);
 
-    const handlePageChange = (pageNumber) =>{
-  
+    useEffect(() => {
+        getResourse('/portoreact/db/skils.json')
+        .then(result => setSkils(result));
+    },[]);
+
+    const handlePageChange = (pageNumber) =>{  
         const newStartElement= (pageNumber*elements)-elements;
         if(newStartElement<=porto.length){            
             setStartElement(newStartElement);
             setPage(pageNumber);
         }
         else{
-            
-
-        }
-        console.log(newStartElement)
+        }   
     }
-
     return(
 
     <BrowserRouter  basename={process.env.PUBLIC_URL}>
@@ -44,11 +49,13 @@ const Content = ({mainDB ,skils = mainDB.mySkils, porto=mainDB.porto }) => {
                 </Route>
 
                 <Route exact  path='/'>
-                    <PromoPost PromoContent ={mainDB.about}/>
+                    <PromoPost/>
                     {
-                        skils.map((item,index) => {
+                            mySkils.map((item,index) => {
                             return(<Post key={index} postContent ={item}/>)
                         })
+                        
+
                     }      
                 </Route>
 

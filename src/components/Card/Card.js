@@ -11,7 +11,6 @@ class Card extends React.Component {
     }
 
 
-      
     componentDidMount(){
     
         getResourse('https://icanhazdadjoke.com/',{ method: 'GET', headers: {'Accept': 'application/json' }})

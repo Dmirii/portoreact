@@ -10,7 +10,7 @@ class Porto extends React.Component {
         this.postContent=props.postContent;
     }
 
- 
+
     componentDidMount(){
         const script = document.createElement("script");
         script.src = "https://yastatic.net/share2/share.js";
@@ -19,15 +19,16 @@ class Porto extends React.Component {
     }
 
     render(){
-
+        let sideBarMenu = document.querySelector('.sidebar');
+        if(sideBarMenu){
+            sideBarMenu.classList.remove('burger-active');
+        }
     return(
     <section className="post">
         <div className="post-body"> 
             <h2 className="post-title">Работа № {this.postContent[0]}</h2>
-
                 <div className="post-wrapper">
                     <div className="post-section">
-
                     <div>
                         <h2  className="post-title  porto-title">{this.postContent[1]}</h2>
                     </div>
@@ -45,7 +46,7 @@ class Porto extends React.Component {
                                 <img  alt="GitHub Repo" src="/portoreact/img/GitHub.png"/>
                             </a> 
                 
-                { 
+                            {        
                     
                                 this.postContent[5].map( (item,index)=>{
                                     return(
@@ -85,7 +86,8 @@ class Porto extends React.Component {
                 <div className="ya-share2" 
                     data-curtain 
                     data-color-scheme="whiteblack"
-                    data-limit="0" data-more-button-type="short" data-services="collections,vkontakte,facebook,odnoklassniki,messenger,whatsapp"></div>
+                    data-limit="0" data-more-button-type="short" data-services="collections,vkontakte,facebook,odnoklassniki,messenger,whatsapp">
+                </div>
                 
             </div>
 

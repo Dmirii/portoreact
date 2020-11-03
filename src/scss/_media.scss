@@ -1,5 +1,7 @@
 @media(max-width: 990px){
+ 
     .header{
+       
         z-index: 5;
         position: fixed;
         top: 0;
@@ -35,6 +37,7 @@
     }
     .content>.posts {
         width: 100%;    
+        margin-top: 90px;
     }
     .content>.sidebar{
         max-width: 320px;
@@ -69,6 +72,26 @@
 }
 
 @media(max-width:400px){
+    .header-wrapper>.header-logo{
+        font-size: 14px;
+    }
+    .header-nav{
+        display: none;
+        // justify-content: center;
+        // align-items: center;
+    }
+    // .header-nav>.header-menu{
+    //     margin: 0;   
+    //     font-size: 20px;     
+    //     display: flex;
+    //     flex-direction: column;
+    //     text-align: center;
+    //     align-items: center;
+    // }
+    .post>.post-body{
+        padding: 5px 5px 5px 5px ;
+    }
+
     .post-body>.post-title{ 
         font-size: 14px;
     }
