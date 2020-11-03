@@ -1,0 +1,51 @@
+[
+    {   "0": "/portoreact/img/p/skils.jpg",
+        "1": "Мои основные навыки",
+        "2": ["HTML","CSS","JS","Git","Figma","Avacode","Создаю чатботов для Telegram"],
+        "3": ["dimaaru","JS","REACT","MERN"],
+        "4": ["19","125"],
+        "5":  "08.04.2020"
+    },
+    {   "0": "/portoreact/img/p/preproc.png",
+        "1": "Препроцессоры",
+        "2": ["PUG","CSS предпочитаю SASS в синтаксисе scss"],
+        "3": ["dimaaru","PUG","SCSC","SASS"],
+        "4": ["49","52"],
+        "5": "10.04.2020"
+    },
+    {   "0": "/portoreact/img/p/layout.jpg",
+        "1":"Верстка",
+        "2": ["Использовал Bootstrap grid","Изучал Float","Предпочитаю адаптивно-отзывчивую верстку (Flex + @media)","Не люблю статику. Люблю генерить верстку JSом."],
+        "3": ["dimaaru","Flex","CSS","@media"],
+        "4": ["39","125"],
+        "5": "12.04.2020"
+    },
+    {   "0": "/portoreact/img/p/npm.jpg",
+        "1": "Общие задачи",
+        "2": ["Gulp","Yarn","npm","PerfectPixel","Webpack"],
+        "3": ["dimaaru","Gulp","Yarn","npm","Webpack"],
+        "4": ["39","15"],
+        "5": "12.04.2020"
+    },
+    {   "0": "/portoreact/img/p/react.png",
+        "1": "Библиотеки JS",
+        "2": ["Node.JS","React.JS"],
+        "3": ["dimaaru","React","Node"],
+        "4": ["3","20"],
+        "5": "16.04.2020"
+    },
+    {   "0": "/portoreact/img/p/bd.jpg",
+        "1": "БД",
+        "2": ["Mongo DB","Firebase"],
+        "3": ["dimaaru","Mongo","Fierbase"],
+        "4": ["2","15"],
+        "5": "19.04.2020"
+    },
+    {   "0": "/portoreact/img/p/mern.png",
+        "1": "Стеки",
+        "2": ["MERN"],
+        "3": ["dimaaru","MERN","Mongo","Express","React","Node"],
+        "4": ["12","10"],
+        "5": "23.04.2020"
+    }
+]

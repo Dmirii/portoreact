@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/portoreact/static/css/main.befa48c5.chunk.css",
-    "main.js": "/portoreact/static/js/main.4a5c4c80.chunk.js",
-    "main.js.map": "/portoreact/static/js/main.4a5c4c80.chunk.js.map",
+    "main.js": "/portoreact/static/js/main.bb69d471.chunk.js",
+    "main.js.map": "/portoreact/static/js/main.bb69d471.chunk.js.map",
     "runtime-main.js": "/portoreact/static/js/runtime-main.267cd949.js",
     "runtime-main.js.map": "/portoreact/static/js/runtime-main.267cd949.js.map",
-    "static/js/2.26bd40c2.chunk.js": "/portoreact/static/js/2.26bd40c2.chunk.js",
-    "static/js/2.26bd40c2.chunk.js.map": "/portoreact/static/js/2.26bd40c2.chunk.js.map",
+    "static/js/2.2a2555da.chunk.js": "/portoreact/static/js/2.2a2555da.chunk.js",
+    "static/js/2.2a2555da.chunk.js.map": "/portoreact/static/js/2.2a2555da.chunk.js.map",
     "index.html": "/portoreact/index.html",
     "static/css/main.befa48c5.chunk.css.map": "/portoreact/static/css/main.befa48c5.chunk.css.map",
-    "static/js/2.26bd40c2.chunk.js.LICENSE.txt": "/portoreact/static/js/2.26bd40c2.chunk.js.LICENSE.txt",
+    "static/js/2.2a2555da.chunk.js.LICENSE.txt": "/portoreact/static/js/2.2a2555da.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/portoreact/static/media/SFProDisplay-Semibold.3926eb65.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.267cd949.js",
-    "static/js/2.26bd40c2.chunk.js",
+    "static/js/2.2a2555da.chunk.js",
     "static/css/main.befa48c5.chunk.css",
-    "static/js/main.4a5c4c80.chunk.js"
+    "static/js/main.bb69d471.chunk.js"
   ]
 }
