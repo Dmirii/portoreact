@@ -39,8 +39,8 @@ const Content = ({mainDB , porto=mainDB.porto }) => {
         }   
     }
     return(
-
-    <BrowserRouter  basename={process.env.PUBLIC_URL}>
+        // basename={process.env.PUBLIC_URL}
+    <BrowserRouter  basename='/portoreact/'>
     <Header/>
         <div className="content">
             <main className="posts">
