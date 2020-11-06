@@ -59,16 +59,23 @@ const Content = ({mainDB , porto=mainDB.porto }) => {
                     }      
                 </Route>
 
-                <Route path='/porto'>              
-                    {   
-                        
-                        porto.map((item,index) => {
-                            if( index> startElement && index <=(startElement+elements)){
-                            return(
-                                <Porto key={index} postContent ={item}/>)
-                            }else return(null)
-                        })
-                    } 
+                <Route path='/porto'>   
+                     <Pagination
+                        activePage={page}
+                        itemsCountPerPage={5}
+                        totalItemsCount={porto.length-1}
+                        pageRangeDisplayed={4}   
+                        onChange={handlePageChange}                     
+                    />             
+                        {   
+                            
+                            porto.map((item,index) => {
+                                if( index> startElement && index <=(startElement+elements)){
+                                return(
+                                    <Porto key={index} postContent ={item}/>)
+                                }else return(null)
+                            })
+                        } 
                     <Pagination
                         activePage={page}
                         itemsCountPerPage={5}
