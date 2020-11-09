@@ -33,14 +33,18 @@ class PromoPost extends React.Component {
                             На этой странице вы узнаете какими навыками я уже обладаю и что изучаю в данный момент.
         
                         </p>
+                    
                     </div>
                     <img src="/portoreact/img/DimaA.jpg" alt="Дима А" className="post-img"/>
+                    
                 </div>    
                 <div className="tags">
+                
                 <a href="/" className="tag">#dimaA</a>
                 <a href="/" className="tag">#JS</a>
                 <a href="/" className="tag">#SCSS</a>
                 <a href="/" className="tag">#react</a>
+               
                 </div>
         </div>    
         <div className="post-footer">
@@ -71,11 +75,13 @@ class PromoPost extends React.Component {
                 
             </div>
             <div className="post-author">
+            <img alt="codewars" src="https://www.codewars.com/users/Dimaaru/badges/micro"></img>
                 <div className="author-about">
                     <a href="https://dmirii.github.io/myPort/" className="author-username">dimaaru</a>
                     <span className="post-time">08.04.2020</span>
                 </div>
                 <a href="/" className="author">
+                
                     <img src="/portoreact/img/DimaA.jpg" alt="tpdne" className="author-avatar"/>
                 </a>
             </div>    
